@@ -160,6 +160,10 @@ img {
    opacity: 0.6;
 }
 
+.header__content-png {
+   display: block;
+}
+
 /* MAIN starts */
 
 .main {
@@ -453,8 +457,10 @@ img {
    display: block;
 }
 
+/* HOME page css ends */
 
-/* ABOUT US css */
+
+/* ABOUT US css starts */
 /* Main starts */
 
 .main__section-commitment {
@@ -488,12 +494,13 @@ img {
 
 .main__section-quality {
    background-color: #C99B67;
+   margin-bottom: 20px;
 }
 .main__quality-content {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 100px 0 118px 143px;
+   padding: 100px 30px 118px 143px;
 }
 
 .main__quality-left {
@@ -526,6 +533,67 @@ img {
 .main__quality-img {
    width: 550px;
    height: 500px;
-   margin-top: -200px;
+   margin-top: -180px;
    object-fit: cover;
+}
+
+/* main__section-heardquarters */
+
+.main__section-heardquarters {
+   background-color: #0A775F;
+   padding: 50px 30px 100px;
+}
+
+.main__heardquarters-content {
+
+}
+
+.main__heardquarters-title {
+   color: #fff;
+   font-weight: bold;
+   font-size: 50px;
+   line-height: 59px;
+   text-align: center;
+   margin-bottom: 80px;
+}
+
+.main__heardquarters-cards {
+   display: flex;
+   /* align-items: center; */
+   justify-content: space-between;
+   column-gap: 20px;
+}
+
+.main__heardquarters-card {
+   padding: 45px 55px 40px 20px;
+   background-color: #F8F8F2;
+   max-width: 433px;
+   width: 100%;
+}
+
+.main__heard-card-png {
+   display: flex;
+   justify-content: end;
+}
+
+.main__heard-card-img {
+   display: block;
+}
+
+.main__heard-card-title {
+   color: var(--main-color);
+   font-weight: 500;
+   font-size: 40px;
+   line-height: 47px;
+   max-width: 231px;
+   width: 100%;
+   margin-bottom: 10px;
+}
+
+.main__heard-card-text {
+   max-width: 141px;
+   width: 100%;
+   font-size: 18px;
+   line-height: 28px;
+   color: var(--main-color);
 }
