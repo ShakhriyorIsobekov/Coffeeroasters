@@ -546,7 +546,13 @@ body {
    display: flex;
    align-items: center;
    justify-content: space-between;
-   padding: 160px 0 200px 143px;
+   padding: 160px 0 200px 143px !important;
+}
+
+.main__left-img {
+   width: 100%;
+   object-fit: cover;
+   height: auto;
 }
 
 .main__right-title {
@@ -570,11 +576,12 @@ body {
    background-color: #C99B67;
    margin-bottom: 20px;
 }
+
 .main__quality-content {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding: 100px 30px 118px 143px;
+   padding: 100px 30px 118px  !important;
 }
 
 .main__quality-left {
@@ -603,12 +610,12 @@ body {
 
 .main__quality-right {
    margin-left: 38px;
+   width: 100%;
 }
 .main__quality-img {
-   width: 550px;
-   height: 500px;
    margin-top: -180px;
    object-fit: cover;
+   width: 100%;
 }
 
 /* main__section-heardquarters */
